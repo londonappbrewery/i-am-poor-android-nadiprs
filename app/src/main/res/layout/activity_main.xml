@@ -9,4 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
+    <TextView
+        android:id="@+id/iAm_TV_mainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="I am "
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/poor_TV_mainActivity"
+        android:layout_toRightOf="@id/iAm_TV_mainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Poor!! "
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coal"
+        android:layout_centerInParent="true"/>
+
 </RelativeLayout>
